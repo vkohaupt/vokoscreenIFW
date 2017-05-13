@@ -1,6 +1,6 @@
 #!/bin/bash
 
-../bin/binarycreator --offline-only \
-                     -c config/config.xml \
-                     -p packages Setup
+/home/vk/Qt/QtIFW2.0.5/bin/binarycreator --offline-only \
+                                         -c config/config.xml \
+                                         -p packages Setup
  

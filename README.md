@@ -1,1 +1,2 @@
-# vokoscreenIFW
+
+Graphical installer for vokoscreen
