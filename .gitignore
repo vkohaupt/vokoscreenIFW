@@ -1,0 +1,46 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Libraries
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Qt-es
+*.pro.user
+*.pro.user.*
+moc_*.cpp
+qrc_*.cpp
+Makefile
+*-build-*
+
+# Linux/Unixes
+.*
+!.tx
+!.gitignore
+*~
+
+# IFW
+vokoscreen.run
+Setup
+
+
+# ffmpeg
+*.log
+
