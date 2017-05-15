@@ -39,7 +39,7 @@ Makefile
 # IFW
 vokoscreen.run
 Setup
-
+*.tar.gz
 
 # ffmpeg
 *.log
