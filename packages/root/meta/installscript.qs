@@ -13,7 +13,8 @@ Component.prototype.createOperations = function()
 
     component.addOperation( "CreateDesktopEntry", "vokoscreen.desktop",
                             "Categories=AudioVideo;Recorder;\n" +
-                            "Comment=screencast\nKeywords=Audio;Video;Recorder;Screencast;\n" +
+                            "Comment=screencast\n" +
+                            "Keywords=Audio;Video;Recorder;Screencast;\n" +
                             "Name=vokoscreen\n" +
                             "StartupNotify=false\n" +
                             "Type=Application\n" +
@@ -23,7 +24,8 @@ Component.prototype.createOperations = function()
                             
     component.addOperation( "CreateDesktopEntry", "vokoscreenUninstall.desktop",
                             "Categories=AudioVideo;Recorder;" +
-                            "Comment=screencast\nKeywords=Audio;Video;Recorder;Screencast;\n" +
+                            "Comment=screencast\n" +
+                            "Keywords=Audio;Video;Recorder;Screencast;\n" +
                             "Name=vokoscreen uninstall\n" +
                             "StartupNotify=false\n" +
                             "Type=Application\n" +
