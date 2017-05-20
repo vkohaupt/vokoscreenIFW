@@ -6,4 +6,5 @@
     <Logo>vokoscreen-logo.png</Logo>    
     <MaintenanceToolName>Uninstall</MaintenanceToolName>
     <TargetDir>@HomeDir@/vokoscreen</TargetDir>
+    <RunProgram>@TargetDir@/vokoscreen.run</RunProgram>
 </Installer>
