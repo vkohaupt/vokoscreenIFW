@@ -37,10 +37,11 @@ Makefile
 *~
 
 # IFW
-vokoscreen.run
+vokoscreen
 Setup
+ffmpeg
+*.pak
 *.tar.gz
-
-# ffmpeg
 *.log
+
 

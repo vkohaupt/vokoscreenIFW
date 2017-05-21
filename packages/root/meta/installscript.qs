@@ -21,13 +21,13 @@ Component.prototype.createOperations = function()
                             "Type=Application\n" +
                             "X-KDE-SubstituteUID=false\n" +
                             "Icon=" + iconName + "\n" +
-                            "Exec=@TargetDir@/vokoscreen.run\n" );
+                            "Exec=@TargetDir@/vokoscreen.sh\n" );
                             
-    component.addOperation( "CreateDesktopEntry", "vokoscreenUninstall.desktop",
+    component.addOperation( "CreateDesktopEntry", "vokoscreen-Uninstall.desktop",
                             "Categories=AudioVideo;Recorder;" +
                             "Comment=screencast\n" +
                             "Keywords=Audio;Video;Recorder;Screencast;\n" +
-                            "Name=vokoscreen uninstall\n" +
+                            "Name=vokoscreen-Uninstall\n" +
                             "StartupNotify=false\n" +
                             "Type=Application\n" +
                             "X-KDE-SubstituteUID=false\n" +
