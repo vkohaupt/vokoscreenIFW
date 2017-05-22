@@ -33,4 +33,11 @@ Component.prototype.createOperations = function()
                             "X-KDE-SubstituteUID=false\n" +
                             "Icon=" + iconName + "\n" +
                             "Exec=@TargetDir@/Uninstall\n" );
+                            
+   component.addOperation( "Copy",
+                           QDesktopServices.storageLocation( QDesktopServices.ApplicationsLocation ) + "/vokoscreen.desktop",
+                           QDesktopServices.storageLocation( QDesktopServices.DesktopLocation )      + "/vokoscreen.desktop" );
+   
 }
+
+

@@ -4,5 +4,5 @@
                                          -c config/config.xml \
                                          -p packages Setup
  
-version=$(cat ../vokoscreen/VERSION | grep Version | cut -d"=" -f2)
-tar cvfz "vokoscreen-x64-"$version"-beta.tar.gz" ./Setup
+# version=$(cat ../vokoscreen/VERSION | grep Version | cut -d"=" -f2)
+# tar cvfz "vokoscreen-x64-"$version"-beta.tar.gz" ./Setup
