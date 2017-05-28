@@ -38,7 +38,7 @@ Makefile
 
 # IFW
 vokoscreen
-vokoscreen-installer
+*installer
 ffmpeg
 *.pak
 *.tar.gz
