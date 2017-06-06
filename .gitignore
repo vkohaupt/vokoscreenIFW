@@ -43,5 +43,7 @@ ffmpeg
 *.pak
 *.tar.gz
 *.log
+*.qm
+
 
 

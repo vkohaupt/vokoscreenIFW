@@ -14,7 +14,7 @@ rootdir() {
 }
 
 ROOTDIR=$(rootdir "$0")
-export LD_LIBRARY_PATH="${ROOTDIR}"/libs:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="${ROOTDIR}"/lib:$LD_LIBRARY_PATH
 export QT_QPA_PLATFORM_PLUGIN_PATH=${ROOTDIR}/platforms
 export QT_PLUGIN_PATH=${ROOTDIR}/plugins
 exec $ROOTDIR/vokoscreen
