@@ -1,0 +1,30 @@
+
+Die libs werden von einem heruntergeldenem Qt 5.9 hergenommen,
+
+1. getSource.sh
+2. Die *tar.gz in einen anderen Ordner kopieren
+3. Auspacken
+4. Testen
+
+Kontrolle:
+--In der vokoscreen Konsolenausgabe muß der vokoscreen eigene Plugin Ordner erscheinen
+--STRG-ESC alle Qtlibs müßen aus dem vokoscreen eigenen Ordner libs erscheinen
+
+Hilfsmittel:
+--ldd
+--lddtree
+--pmap $PID 
+
+Zeigt alle Libs unter Trinitri an
+pidof vokoscreen
+12345
+lsof -p 12345
+
+Distribution: 
+Trinitry OK
+
+Ermitteln ob Wayland läuft:
+http://www.linux-community.de/Internal/Artikel/Print-Artikel/LinuxUser/2016/02/Fensterwechsel/(article_body_offset)/2
+ls -l $XDG_RUNTIME_DIR/wayland-0
+srwxr-xr-x. 1 liveuser 0 Dec 10 14:56 /run/user/1000/wayland-0
+
