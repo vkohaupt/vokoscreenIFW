@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Installer>
     <Name>vokoscreen</Name>
-    <Version>2.5.4</Version>
+    <Version>2.5.6</Version>
     <Title>vokoscreen</Title>
     <Logo>vokoscreen-logo.png</Logo>    
     <MaintenanceToolName>Uninstall</MaintenanceToolName>
