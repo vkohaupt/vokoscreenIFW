@@ -7,5 +7,5 @@
 * https://download.qt.io/official_releases/qt-installer-framework/3.1.1/QtInstallerFramework-win-x86.exe
 
 
-### Manual
+### Manual for QtInstallerFramework
 * https://doc.qt.io/qtinstallerframework/index.html
