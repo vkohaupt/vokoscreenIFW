@@ -37,11 +37,9 @@ Makefile
 *~
 
 # IFW
-vokoscreen
-*installer
-ffmpeg
+vokoscreenNG
+*.run
 *.pak
-*.tar.gz
 *.log
 *.qm
 
