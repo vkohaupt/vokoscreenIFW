@@ -13,22 +13,22 @@ Component.prototype.createOperations = function()
 
     component.addOperation( "InstallIcons", "@TargetDir@/icons"  );
 
-    component.addOperation( "CreateDesktopEntry", "vokoscreenRUN.desktop",
+    component.addOperation( "CreateDesktopEntry", "vokoscreenNG-@Version@.desktop",
                             "Categories=AudioVideo;Recorder;\n" +
                             "Comment=screencast\n" +
                             "Keywords=Audio;Video;Recorder;Screencast;\n" +
-                            "Name=vokoscreenRUN\n" +
+                            "Name=vokoscreenNG-@Version@\n" +
                             "StartupNotify=false\n" +
                             "Type=Application\n" +
                             "X-KDE-SubstituteUID=false\n" +
                             "Icon=" + iconName + "\n" +
-                            "Exec='@TargetDir@/vokoscreen.sh'\n" );
+                            "Exec='@TargetDir@/vokoscreenNG.sh'\n" );
                             
-    component.addOperation( "CreateDesktopEntry", "vokoscreenRUN-Uninstall.desktop",
+    component.addOperation( "CreateDesktopEntry", "vokoscreenNG-@Version@-Uninstall.desktop",
                             "Categories=AudioVideo;Recorder;" +
                             "Comment=screencast\n" +
                             "Keywords=Audio;Video;Recorder;Screencast;\n" +
-                            "Name=vokoscreenRUN-Uninstall\n" +
+                            "Name=vokoscreenNG-@Version@-Uninstall\n" +
                             "StartupNotify=false\n" +
                             "Type=Application\n" +
                             "X-KDE-SubstituteUID=false\n" +
@@ -36,7 +36,7 @@ Component.prototype.createOperations = function()
                             "Exec='@TargetDir@/Uninstall'\n" );
                             
    component.addOperation( "Copy",
-                           QDesktopServices.storageLocation( QDesktopServices.ApplicationsLocation ) + "/vokoscreenRUN.desktop",
-                           QDesktopServices.storageLocation( QDesktopServices.DesktopLocation )      + "/vokoscreenRUN.desktop" );
+                           QDesktopServices.storageLocation( QDesktopServices.ApplicationsLocation ) + "/vokoscreenNG-@Version@.desktop",
+                           QDesktopServices.storageLocation( QDesktopServices.DesktopLocation )      + "/vokoscreenNG-@Version@.desktop" );
    
 }
