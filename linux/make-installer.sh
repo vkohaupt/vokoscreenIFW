@@ -8,28 +8,32 @@
 
 # Version von vokoscreenNG
 version="3.0.0"
-name="Installer-vokoscreenNG-"$version"-linux.run"
-qt="/home/vk/Qt5.12.3/5.12.3/gcc_64/"
+installerName="Installer-vokoscreenNG-"$version"-linux.run"
+qtPath="/home/vk/Qt5.12.3/5.12.3/gcc_64/"
+buildPath="/home/vk/Programmieren/vokoscreenNG/build-vokoscreenNG-Desktop_Qt_5_12_3_GCC_64bit-Release"
 
-rm $name
+rm $installerName
 
-lib=$qt"/lib/"
+lib=$qtPath"/lib/"
 rm -r ./packages/root/data/lib
 mkdir ./packages/root/data/lib
 
 # Option -d kopiert Softlinks
 cp -d $lib*".so."* ./packages/root/data/lib
 
-plugins=$qt"/plugins/"
+plugins=$qtPath"/plugins/"
 rm -r ./packages/root/data/plugins
 mkdir ./packages/root/data/plugins
 cp -r $plugins* ./packages/root/data/plugins
 
-translations=$qt"/translations/"
+translations=$qtPath"/translations/"
 rm -r ./packages/root/data/translations
 mkdir ./packages/root/data/translations
 cp -r $translations*".qm" ./packages/root/data/translations
 
+rm ./packages/root/data/vokoscreenNG
+cp $buildPath/vokoscreenNG ./packages/root/data
+
 /home/vk/Qt/QtIFW-3.1.1/bin/binarycreator --offline-only \
                                           -c config/config.xml \
-                                          -p packages $name
+                                          -p packages $installerName

@@ -1,5 +1,6 @@
 
-Die libs werden von einem heruntergeladenem Qt 5.12.3 hergenommen,
+Die libs werden von einem heruntergeladenem Qt 5.12.3 kopiert,
+Das vokoscreenNG binary wird mit diesem Qt 5.12.3 erstellt.
 
 Hilfsmittel:
 --ldd
