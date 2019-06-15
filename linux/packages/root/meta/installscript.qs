@@ -9,6 +9,9 @@ function Component()
 
 Component.prototype.createOperations = function()
 {
+  if ( systemInfo.kernelType === "linux" )
+  {
+
     component.createOperations();
 
     component.addOperation( "InstallIcons", "@TargetDir@/icons"  );
@@ -38,5 +41,6 @@ Component.prototype.createOperations = function()
    component.addOperation( "Copy",
                            QDesktopServices.storageLocation( QDesktopServices.ApplicationsLocation ) + "/vokoscreenNG-@Version@.desktop",
                            QDesktopServices.storageLocation( QDesktopServices.DesktopLocation )      + "/vokoscreenNG-@Version@.desktop" );
+  }
    
 }
