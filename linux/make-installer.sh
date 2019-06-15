@@ -8,7 +8,10 @@
 
 # Version von vokoscreenNG
 version="3.0.0"
+name="Installer-vokoscreenNG-"$version"-linux.run"
 qt="/home/vk/Qt5.12.3/5.12.3/gcc_64/"
+
+rm $name
 
 lib=$qt"/lib/"
 rm -r ./packages/root/data/lib
@@ -22,12 +25,10 @@ rm -r ./packages/root/data/plugins
 mkdir ./packages/root/data/plugins
 cp -r $plugins* ./packages/root/data/plugins
 
-prefix_DIVERSES="/usr/lib64/"
-cp -d $prefix_DIVERSES"libv4l"*       ./packages/root/data/lib
-cp -d $prefix_DIVERSES"libjpeg.so.8"* ./packages/root/data/lib
-
-
-name="Installer-vokoscreenNG-linux-"$version".run"
+translations=$qt"/translations/"
+rm -r ./packages/root/data/translations
+mkdir ./packages/root/data/translations
+cp -r $translations*".qm" ./packages/root/data/translations
 
 /home/vk/Qt/QtIFW-3.1.1/bin/binarycreator --offline-only \
                                           -c config/config.xml \
