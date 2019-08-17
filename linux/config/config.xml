@@ -3,9 +3,9 @@
     <Name>vokoscreenNG</Name>
     <Version>3.0.0</Version>
     <Title>vokoscreenNG</Title>
-    <Logo>vokoscreen-logo.png</Logo>
+    <Logo>vokoscreenNG-logo.png</Logo>
     <MaintenanceToolName>Uninstall</MaintenanceToolName>
     <TargetDir>@HomeDir@/vokoscreenNG-@Version@</TargetDir>
     <RunProgram>@TargetDir@/vokoscreenNG.sh</RunProgram>
-    <InstallerWindowIcon>vokoscreen-InstallerWindowIcon.png</InstallerWindowIcon>
+    <InstallerWindowIcon>vokoscreenNG-InstallerWindowIcon.png</InstallerWindowIcon>
 </Installer>

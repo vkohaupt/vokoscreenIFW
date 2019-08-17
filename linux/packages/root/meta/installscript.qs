@@ -1,7 +1,7 @@
 
 
-var iconName = "vokoscreenRUN";
-var progName = "vokoscreenRUN"; // noch nicht angewandt
+var iconName = "vokoscreenNG";
+var progName = "vokoscreenNG"; // noch nicht angewandt
 
 function Component()
 {
