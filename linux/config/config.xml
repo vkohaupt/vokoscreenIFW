@@ -8,4 +8,5 @@
     <TargetDir>@HomeDir@/vokoscreenNG-@Version@</TargetDir>
     <RunProgram>@TargetDir@/vokoscreenNG.sh</RunProgram>
     <InstallerWindowIcon>vokoscreenNG-InstallerWindowIcon.png</InstallerWindowIcon>
+    <ControlScript>controllerscript.qs</ControlScript>
 </Installer>

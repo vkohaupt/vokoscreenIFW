@@ -42,5 +42,4 @@ Component.prototype.createOperations = function()
                            QDesktopServices.storageLocation( QDesktopServices.ApplicationsLocation ) + "/vokoscreenNG-@Version@.desktop",
                            QDesktopServices.storageLocation( QDesktopServices.DesktopLocation )      + "/vokoscreenNG-@Version@.desktop" );
   }
-   
 }
