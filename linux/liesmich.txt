@@ -15,3 +15,5 @@ lsof -p 12345
 Distribution: 
 Trinitry OK
 
+Aufruf von der Konsole:
+/home/vk/Qt/QtIFW-3.1.1/bin/binarycreator --offline-only -c config/config.xml -p packages Installer-vokoscreenNG-3.0.0-linux.run
