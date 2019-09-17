@@ -14,7 +14,7 @@ Controller.prototype.IntroductionPageCallback = function()
         {
             widget.findChild("PackageManagerRadioButton").visible = false;
             widget.findChild("UpdaterRadioButton").visible = false;
-            widget.findChild("UninstallerRadioButton").visible = false;
+            widget.findChild("UninstallerRadioButton").visible = true;
         }
     }
 }
