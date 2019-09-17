@@ -19,7 +19,10 @@ rm -r ./packages/root/data/lib
 mkdir ./packages/root/data/lib
 
 # Option -d kopiert Softlinks
-cp -d $lib*".so."* ./packages/root/data/lib
+#cp -d $lib*".so."* ./packages/root/data/lib
+cp -d $lib* ./packages/root/data/lib
+rm ./packages/root/data/lib/*.a
+rm ./packages/root/data/lib/*.prl
 
 plugins=$qtPath"/plugins/"
 rm -r ./packages/root/data/plugins
