@@ -9,3 +9,7 @@
 
 ### Manual for QtInstallerFramework
 * https://doc.qt.io/qtinstallerframework/index.html
+
+
+### Help for DEBUG
+export QT_DEBUG_PLUGINS=1
