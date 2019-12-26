@@ -12,4 +12,4 @@
 
 
 ### Help for DEBUG
-export QT_DEBUG_PLUGINS=1
+* export QT_DEBUG_PLUGINS=1
