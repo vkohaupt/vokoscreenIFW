@@ -36,7 +36,13 @@ cp -r $translations*".qm" ./packages/root/data/translations
 rm ./packages/root/data/vokoscreenNG
 cp $buildPath/vokoscreenNG ./packages/root/data
 
-cp /usr/lib64/gstreamer-1.0/* ./packages/root/data/lib
+cp /usr/lib64/gstreamer-1.0/*  ./packages/root/data/lib
+cp -d /usr/lib64/libgst*       ./packages/root/data/lib
+
+cp -d /usr/lib64/libqgsttools_p.so.1.0.0  ./packages/root/data/lib
+
+
+cp -d /usr/lib64/libfaac* ./packages/root/data/lib
 
 
 /home/vk/Qt/QtIFW-3.1.1/bin/binarycreator --offline-only \
