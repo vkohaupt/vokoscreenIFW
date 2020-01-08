@@ -6,4 +6,5 @@
     <ReleaseDate>2019-06-14</ReleaseDate>
     <Default>true</Default>
     <Script>installscript.qs</Script>
+    <Licenses><License name="GNU GENERAL PUBLIC LICENSE Version 2, June 1991" file="COPYING" /></Licenses>
 </Package>
