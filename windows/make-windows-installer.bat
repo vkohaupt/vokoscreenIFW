@@ -9,6 +9,10 @@ rem git clone https://github.com/vkohaupt/vokoscreenIFW.git
 rem Copy vokoscreenNG.exe in the folder \vokoscreenIFW\windows\packages\root\data
 rem Start this file
 
+rem Version von vokoscreenNG
+version="3.0.0"
+SET installerName="Installer-vokoscreenNG-"%version%"-windows.exe"
+
 rem Too find gcc
 PATH=%PATH%;C:\Qt\Qt5.9.4\Tools\mingw530_32\bin
 
@@ -17,8 +21,6 @@ SET SCRIPT_LOCATION=%~dp0
 C:\Qt\Qt5.9.4\5.9.4\mingw53_32\bin\windeployqt.exe --release %SCRIPT_LOCATION%\packages\root\data\vokoscreenNG.exe
 
 SET libfolder=%SCRIPT_LOCATION%\packages\root\data
-
-echo ************** %libfolder% ********************
 
 copy C:\gstreamer\1.0\x86\bin\libbz2.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libffi-7.dll %libfolder%
@@ -70,5 +72,7 @@ copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstvpx.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstwinscreencap.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstx264.dll %libfolder%
 
-
+C:\Qt\QtIFW-3.1.1\bin\binarycreator --offline-only \
+                                     -c config/config.xml \
+                                     -p packages %installerName%
 
