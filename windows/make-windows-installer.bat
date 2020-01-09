@@ -73,7 +73,5 @@ copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstvpx.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstwinscreencap.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstx264.dll %libfolder%
 
-C:\Qt\QtIFW-3.1.1\bin\binarycreator --offline-only \
-                                     -c config/config.xml \
-                                     -p packages %installerName%
+C:\Qt\QtIFW-3.1.1\bin\binarycreator --offline-only -c config/config.xml -p packages %installerName%
 
