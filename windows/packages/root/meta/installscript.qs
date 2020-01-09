@@ -38,16 +38,17 @@ Component.prototype.createOperations = function()
                             "Icon=" + iconName + "\n" +
                             "Exec='@TargetDir@/Uninstall'\n" );
                             
-   component.addOperation( "Copy",
-                           QDesktopServices.storageLocation( QDesktopServices.ApplicationsLocation ) + "/vokoscreenNG-@Version@.desktop",
-                           QDesktopServices.storageLocation( QDesktopServices.DesktopLocation )      + "/vokoscreenNG-@Version@.desktop" );
+    component.addOperation( "Copy",
+                             QDesktopServices.storageLocation( QDesktopServices.ApplicationsLocation ) + "/vokoscreenNG-@Version@.desktop",
+                             QDesktopServices.storageLocation( QDesktopServices.DesktopLocation )      + "/vokoscreenNG-@Version@.desktop" );
   }
-  
-  
+
+
   if ( systemInfo.kernelType === "winnt" )
   {
     component.createOperations();
 
-    component.addOperation( "InstallIcons", "@TargetDir@/icons"  );
+    component.addOperation( "InstallIcons", "@TargetDir@/icons" );
+
+    component.addOperation( "CreateShortcut","@TargetDir@/vokoscreenNG.vbs","@StartMenuDir@/vokoscreenNG.lnk" );
   }
-}
