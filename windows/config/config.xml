@@ -6,7 +6,7 @@
     <Logo>vokoscreenNG-logo.png</Logo>
     <MaintenanceToolName>Uninstall</MaintenanceToolName>
     <TargetDir>@HomeDir@/vokoscreenNG-@Version@</TargetDir>
-    <RunProgram>@TargetDir@/vokoscreenNG.sh</RunProgram>
+    <RunProgram>@TargetDir@/vokoscreenNG.vbs</RunProgram>
     <InstallerWindowIcon>vokoscreenNG-InstallerWindowIcon.png</InstallerWindowIcon>
     <ControlScript>controllerscript.qs</ControlScript>
 </Installer>
