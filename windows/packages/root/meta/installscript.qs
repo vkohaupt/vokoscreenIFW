@@ -44,7 +44,7 @@ Component.prototype.createOperations = function()
   }
   
   
-  if ( systemInfo.kernelType === "linux" )
+  if ( systemInfo.kernelType === "winnt" )
   {
     component.createOperations();
 
