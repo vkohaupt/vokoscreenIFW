@@ -53,3 +53,4 @@ Component.prototype.createOperations = function()
     component.addOperation( "CreateShortcut","@TargetDir@/vokoscreenNG.vbs","@StartMenuDir@/vokoscreenNG.lnk" );
     component.addOperation( "CreateShortcut","@TargetDir@/vokoscreenNG.vbs","@DesktopDir@/vokoscreenNG.lnk" );
   }
+}
