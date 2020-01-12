@@ -3,6 +3,7 @@
     <Name>vokoscreenNG</Name>
     <Version>3.0.0</Version>
     <Title>vokoscreenNG</Title>
+    <Publisher>vokoscreenNG Team</Publisher>
     <WizardStyle>Classic</WizardStyle>
     <Logo>vokoscreenNG-logo.png</Logo> <!-- Logo oben rechts im Wizard -->
     <MaintenanceToolName>Uninstall</MaintenanceToolName>
