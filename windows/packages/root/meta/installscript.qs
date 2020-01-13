@@ -50,7 +50,7 @@ Component.prototype.createOperations = function()
 
     component.addOperation( "InstallIcons", "@TargetDir@/icons" );
 
-    component.addOperation( "CreateShortcut","@TargetDir@/vokoscreenNG.vbs","@StartMenuDir@/vokoscreenNG.lnk", "iconPath=@TargetDir@/vokoscreenNG.ico" );
-    component.addOperation( "CreateShortcut","@TargetDir@/vokoscreenNG.vbs","@DesktopDir@/vokoscreenNG.lnk", "iconPath=@TargetDir@/vokoscreenNG.ico" );
+    component.addOperation( "CreateShortcut","@TargetDir@/vokoscreenNG.vbs","@StartMenuDir@/vokoscreenNG-@Version@.lnk", "iconPath=@TargetDir@/vokoscreenNG.ico" );
+    component.addOperation( "CreateShortcut","@TargetDir@/vokoscreenNG.vbs","@DesktopDir@/vokoscreenNG-@Version@.lnk", "iconPath=@TargetDir@/vokoscreenNG.ico" );
   }
 }
