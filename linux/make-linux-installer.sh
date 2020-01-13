@@ -45,6 +45,6 @@ cp -d /usr/lib64/libqgsttools_p.so.1.0.0  ./packages/root/data/lib
 cp -d /usr/lib64/libfaac* ./packages/root/data/lib
 
 
-/home/vk/Qt/QtIFW-3.1.1/bin/binarycreator --offline-only \
+/home/vk/Qt/QtIFW-3.2.0/bin/binarycreator --offline-only \
                                           -c config/config.xml \
                                           -p packages $installerName

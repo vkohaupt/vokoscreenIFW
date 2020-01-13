@@ -2,7 +2,7 @@ rem @ECHO OFF
 rem Install qt-opensource-windows-x86-5.9.4.exe
 rem Install gstreamer-1.0-x86-1.14.4.msi
 rem Install gstreamer-1.0-devel-x86-1.14.4.msi
-rem Install https://download.qt.io/official_releases/qt-installer-framework/3.1.1/QtInstallerFramework-win-x86.exe
+rem Install https://download.qt.io/official_releases/qt-installer-framework/3.2.0/QtInstallerFramework-win-x86.exe
 rem Install git
 rem Create a folder
 rem Change in the created folder
@@ -73,5 +73,5 @@ copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstvpx.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstwinscreencap.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstx264.dll %libfolder%
 
-C:\Qt\QtIFW-3.1.1\bin\binarycreator --offline-only -c config/config.xml -p packages %installerName%
+C:\Qt\QtIFW-3.2.0\bin\binarycreator --offline-only -c config/config.xml -p packages %installerName%
 
