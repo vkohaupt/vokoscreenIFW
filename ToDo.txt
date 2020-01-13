@@ -1,7 +1,6 @@
  
 Windows:
---vokoscreenNg.vbs  Parameterangabe versehen
---Wird der Installer abgebrochen erscheint von Windows eine Fehlermeldung
+--vokoscreenNg.vbs mit Parameterangabe versehen
 --Im Windows-Deinstaller sollte die Versionsnummer im Namen erscheinen
 
 
