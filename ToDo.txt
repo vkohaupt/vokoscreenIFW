@@ -1,3 +1,7 @@
  
 Windows:
---Herausgeber angeben
+--vokoscreenNg.vbs  Parameterangabe versehen
+--Wird der Installer abgebrochen erscheint von Windows eine Fehlermeldung
+--Im Windows-Deinstaller sollte die Versionsnummer im Namen erscheinen
+
+
