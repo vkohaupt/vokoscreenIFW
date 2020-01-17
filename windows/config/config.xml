@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Installer>
     <Name>vokoscreenNG</Name>
-    <Version>3.0.0</Version>
+    <Version>2.9.9-Beta</Version>
     <Title>vokoscreenNG</Title>
     <Publisher>vokoscreenNG Team</Publisher>
     <WizardStyle>Classic</WizardStyle>

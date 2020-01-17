@@ -11,7 +11,7 @@ rem Copy vokoscreenNG.exe in the folder \vokoscreenIFW\windows\packages\root\dat
 rem Start this file
 
 rem Version von vokoscreenNG
-SET version=3.0.0
+SET version=2.9.9-Beta
 SET installerName=Installer-vokoscreenNG-%version%-windows.exe
 
 rem Too find gcc
@@ -22,6 +22,9 @@ SET SCRIPT_LOCATION=%~dp0
 C:\Qt\Qt5.9.4\5.9.4\mingw53_32\bin\windeployqt.exe --release %SCRIPT_LOCATION%\packages\root\data\vokoscreenNG.exe
 
 SET libfolder=%SCRIPT_LOCATION%\packages\root\data
+
+copy C:\Qt\Qt5.9.4\Tools\mingw530_32\opt\bin\ssleay32.dll %libfolder%
+copy C:\Qt\Qt5.9.4\Tools\mingw530_32\opt\bin\libeay32.dll %libfolder%
 
 copy C:\gstreamer\1.0\x86\bin\libbz2.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libffi-7.dll %libfolder%
