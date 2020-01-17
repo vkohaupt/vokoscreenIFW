@@ -12,7 +12,7 @@ rem Start this file
 
 rem Version von vokoscreenNG
 SET version=2.9.9-Beta
-SET installerName=Installer-vokoscreenNG-%version%-win32.exe
+SET installerName=vokoscreenNG-%version%-win32.exe
 
 rem Too find gcc
 PATH=%PATH%;C:\Qt\Qt5.9.4\Tools\mingw530_32\bin
