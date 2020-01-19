@@ -35,12 +35,18 @@ cp -d "$lib"libicui18n.so* $target
 cp -d "$lib"libicuuc.so* $target
 cp -d "$lib"libicudata.so* $target
 
-
-# Hier sollten nur die benötigten plugins kopiert werden
+# Dies ist fertig
 plugins=$qtPath"/plugins/"
 rm -r ./packages/root/data/plugins
 mkdir ./packages/root/data/plugins
-cp -r $plugins* ./packages/root/data/plugins
+cp -r "$plugins"bearer ./packages/root/data/plugins
+cp -r "$plugins"iconengines ./packages/root/data/plugins
+cp -r "$plugins"imageformats ./packages/root/data/plugins
+cp -r "$plugins"mediaservice ./packages/root/data/plugins
+cp -r "$plugins"platforminputcontexts ./packages/root/data/plugins
+cp -r "$plugins"platforms ./packages/root/data/plugins
+cp -r "$plugins"xcbglintegrations ./packages/root/data/plugins
+
 
 # Dies ist fertig
 translations=$qtPath"/translations/"
@@ -60,5 +66,6 @@ cp -d /usr/lib64/libqgsttools_p.so.1.0.0  ./packages/root/data/lib
 
 cp -d /usr/lib64/libfaac* ./packages/root/data/lib
 
-
-exit
+/home/vk/Qt/QtIFW-3.2.0/bin/binarycreator --offline-only \
+                                          -c config/config.xml \
+                                          -p packages $installerName

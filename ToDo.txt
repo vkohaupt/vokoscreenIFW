@@ -1,6 +1,5 @@
  
 Windows:
 --vokoscreenNg.vbs mit Parameterangabe versehen
---Im Windows-Deinstaller sollte die Versionsnummer im Namen erscheinen
 
 
