@@ -27,7 +27,6 @@ cp -d "$lib"libQt5Widgets.so* $target
 cp -d "$lib"libQt5X11Extras.so* $target
 cp -d "$lib"libQt5XcbQpa.so* $target
 cp -d "$lib"libQt5DBus.so* $target
-# Dies zusätzlich um Meldungen zu entfernen
 cp -d "$lib"libQt5Quick.so* $target
 cp -d "$lib"libQt5Qml.so* $target
 cp -d "$lib"libQt5Xml.so* $target
@@ -39,6 +38,18 @@ cp -d "$lib"libicudata.so* $target
 
 cp -d /usr/lib64/libv4l2.so* $target
 cp -d /usr/lib64/libv4lconvert.so* $target
+cp -d /usr/lib64/libjpeg.so* $target
+
+cp -d /usr/lib64/libva.so* $target
+cp -d /usr/lib64/libavcodec.so.* $target
+cp -d /usr/lib64/libavfilter.so.* $target
+cp -d /usr/lib64/libavformat.so.* $target
+cp -d /usr/lib64/libavresample.so.* $target
+cp -d /usr/lib64/libavutil.so.* $target
+
+cp -d /usr/lib64/libx264.so* $target
+
+cp -d /usr/lib64/libfaac* ./packages/root/data/lib
 
 # Dies ist fertig
 plugins=$qtPath"/plugins/"
@@ -74,7 +85,6 @@ cp -d /usr/lib64/libgst*       ./packages/root/data/lib
 
 cp -d /usr/lib64/libqgsttools_p.so.1.0.0  ./packages/root/data/lib
 
-cp -d /usr/lib64/libfaac* ./packages/root/data/lib
 
 /home/vk/Qt/QtIFW-3.2.0/bin/binarycreator --offline-only \
                                           -c config/config.xml \
