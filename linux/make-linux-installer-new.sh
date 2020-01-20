@@ -30,6 +30,8 @@ cp -d "$lib"libQt5DBus.so* $target
 # Dies zusätzlich um Meldungen zu entfernen
 cp -d "$lib"libQt5Quick.so* $target
 cp -d "$lib"libQt5Qml.so* $target
+cp -d "$lib"libQt5Xml.so* $target
+cp -d "$lib"libQt5TextToSpeech.so* $target
 
 cp -d "$lib"libicui18n.so* $target
 cp -d "$lib"libicuuc.so* $target
