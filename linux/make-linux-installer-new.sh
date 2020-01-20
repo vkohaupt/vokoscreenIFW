@@ -35,6 +35,9 @@ cp -d "$lib"libicui18n.so* $target
 cp -d "$lib"libicuuc.so* $target
 cp -d "$lib"libicudata.so* $target
 
+cp -d /usr/lib64/libv4l2.so* $target
+cp -d /usr/lib64/libv4lconvert.so* $target
+
 # Dies ist fertig
 plugins=$qtPath"/plugins/"
 rm -r ./packages/root/data/plugins
