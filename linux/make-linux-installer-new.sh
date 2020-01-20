@@ -51,11 +51,15 @@ cp -r "$plugins"platforms ./packages/root/data/plugins
 cp -r "$plugins"xcbglintegrations ./packages/root/data/plugins
 
 
-# Dies ist fertig
 translations=$qtPath"/translations/"
 rm -r ./packages/root/data/translations
 mkdir ./packages/root/data/translations
 cp -r "$translations"qt_??".qm" ./packages/root/data/translations
+cp "$translations"qtbase_??.qm ./packages/root/data/translations
+cp "$translations"qtmultimedia_??.qm ./packages/root/data/translations
+cp "$translations"qtscript_??.qm ./packages/root/data/translations
+cp "$translations"qtxmlpatterns_??.qm ./packages/root/data/translations
+
 
 # Dies ist fertig
 rm ./packages/root/data/vokoscreenNG
