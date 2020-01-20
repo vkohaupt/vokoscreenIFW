@@ -55,6 +55,7 @@ translations=$qtPath"/translations/"
 rm -r ./packages/root/data/translations
 mkdir ./packages/root/data/translations
 cp -r "$translations"qt_??".qm" ./packages/root/data/translations
+cp -r "$translations"qt_??_??".qm" ./packages/root/data/translations
 cp "$translations"qtbase_??.qm ./packages/root/data/translations
 cp "$translations"qtmultimedia_??.qm ./packages/root/data/translations
 cp "$translations"qtscript_??.qm ./packages/root/data/translations
