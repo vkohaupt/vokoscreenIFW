@@ -83,7 +83,35 @@ cp $buildPath/vokoscreenNG ./packages/root/data
 cp /usr/lib64/gstreamer-1.0/*  ./packages/root/data/lib
 cp -d /usr/lib64/libgst*       ./packages/root/data/lib
 
-cp -d /usr/lib64/libqgsttools_p.so.1.0.0  ./packages/root/data/lib
+cp -d /usr/lib64/libqgsttools_p.so.*  ./packages/root/data/lib
+cp -d /usr/lib64/libgstrtp-1.0.so.*              ./packages/root/data/lib
+cp -d /usr/lib64/libgstriff-1.0.so.*             ./packages/root/data/lib
+cp -d /usr/lib64/libgio-2.0.so.*                 ./packages/root/data/lib
+cp -d /usr/lib64/libgudev-1.0.so.*                  ./packages/root/data/lib
+cp -d /usr/lib64/libgstbasecamerabinsrc-1.0.so.* ./packages/root/data/lib
+cp -d /usr/lib64/libgstphotography-1.0.so.*      ./packages/root/data/lib
+cp -d /usr/lib64/libgstallocators-1.0.so.*       ./packages/root/data/lib
+cp -d /usr/lib64/libgstgl-1.0.so.*               ./packages/root/data/lib
+cp -d /usr/lib64/libgstcodecparsers-1.0.so.*     ./packages/root/data/lib
+cp -d /usr/lib64/libgsttag-1.0.so.*              ./packages/root/data/lib
+cp -d /usr/lib64/libgstpbutils-1.0.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libgstbase-1.0.so.*             ./packages/root/data/lib
+cp -d /usr/lib64/libgstvideo-1.0.so.*                   ./packages/root/data/lib
+cp -d /usr/lib64/libgstaudio-1.0.so.*                   ./packages/root/data/lib
+cp -d /usr/lib64/libgstapp-1.0.so*                      ./packages/root/data/lib
+cp -d /usr/lib64/libglapi.so.*                          ./packages/root/data/lib
+cp -d /usr/lib64/libgpg-error.so.*                      ./packages/root/data/lib
+cp -d /usr/lib64/libgcrypt.so.*                         ./packages/root/data/lib
+cp -d /usr/lib64/libgthread-2.0.so.*                    ./packages/root/data/lib
+cp -d /usr/lib64/libgmodule-2.0.so.*                    ./packages/root/data/lib
+cp -d /usr/lib64/libglib-2.0.so.*                       ./packages/root/data/lib
+cp -d /usr/lib64/libgobject-2.0.so.*                    ./packages/root/data/lib
+cp -d /usr/lib64/libgstreamer-1.0.so.*                  ./packages/root/data/lib
+cp -d /usr/lib64/libspa-lib.so.* ./packages/root/data/lib
+cp -d /usr/lib64/spa/support/libspa-dbus.so ./packages/root/data/lib
+cp -d /usr/lib64/spa/support/libspa-support.so ./packages/root/data/lib
+cp -d /usr/lib64/libffi.so.* ./packages/root/data/lib
+cp -d /usr/lib64/libpcre.so.* ./packages/root/data/lib
 
 
 /home/vk/Qt/QtIFW-3.2.0/bin/binarycreator --offline-only \

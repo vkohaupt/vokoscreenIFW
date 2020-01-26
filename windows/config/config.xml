@@ -4,6 +4,7 @@
     <Version>2.9.9-Beta</Version>
     <Title>vokoscreenNG</Title>
     <Publisher>vokoscreenNG Team</Publisher>
+    <ProductUrl>https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html</ProductUrl>
     <WizardStyle>Classic</WizardStyle>
     <Logo>vokoscreenNG-logo.png</Logo> <!-- Logo oben rechts im Wizard -->
     <MaintenanceToolName>Uninstall</MaintenanceToolName>
