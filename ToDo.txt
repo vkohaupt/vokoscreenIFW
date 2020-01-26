@@ -1,5 +1,0 @@
- 
-Windows:
---vokoscreenNg.vbs mit Parameterangabe versehen
-
-
