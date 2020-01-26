@@ -4,10 +4,10 @@ dim objArgs
 Set objArgs = Wscript.Arguments
 
 dim count
-count = CStr(WScript.Arguments.count)
+count = WScript.Arguments.count
 if count > 0 then
   dim arg
-  arg = CStr(WScript.Arguments.Item(0))
+  arg = WScript.Arguments.Item(0)
 end if
 
 dim currentdir
