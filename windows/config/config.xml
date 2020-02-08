@@ -8,7 +8,7 @@
     <WizardStyle>Classic</WizardStyle>
     <Logo>vokoscreenNG-logo.png</Logo> <!-- Logo oben rechts im Wizard -->
     <MaintenanceToolName>Uninstall</MaintenanceToolName>
-    <TargetDir>@HomeDir@/vokoscreenNG-@Version@</TargetDir>
+    <TargetDir>@HomeDir@/vokoscreenNG</TargetDir>
     <InstallerApplicationIcon>vokoscreenNG-InstallerWindowIcon</InstallerApplicationIcon> <!-- Icon für Titelzeile und Deinstallation -->
     <ControlScript>controllerscript.qs</ControlScript>
 </Installer>
