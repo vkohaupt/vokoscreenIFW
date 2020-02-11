@@ -2,8 +2,8 @@
 <Package>
     <DisplayName>vokoscreenNG</DisplayName>
     <Description>Install vokoscreenNG</Description>
-    <Version>3.0.1</Version>
-    <ReleaseDate>2020-01-31</ReleaseDate>
+    <Version>3.0.2</Version>
+    <ReleaseDate>2020-02-10</ReleaseDate>
     <Default>true</Default>
     <Script>installscript.qs</Script>
     <Licenses><License name="GNU GENERAL PUBLIC LICENSE Version 2, June 1991" file="COPYING" /></Licenses>
