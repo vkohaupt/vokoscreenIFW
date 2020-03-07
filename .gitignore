@@ -42,6 +42,4 @@ vokoscreenNG
 *.pak
 *.log
 *.qm
-
-
-
+!libopenh264.dll
