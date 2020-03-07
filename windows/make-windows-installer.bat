@@ -51,10 +51,14 @@ copy C:\gstreamer\1.0\x86\bin\libwinpthread-1.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libx264-148.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libz.dll %libfolder%
 
-rem copy C:\gstreamer\1.0\x86\bin\libgcc_s_sjlj-1.dll
-rem copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstopenh264.dll
-rem copy C:\gstreamer\1.0\x86\bin\libstdc++-6.dll
-rem copy C:\gstreamer\1.0\x86\bin\libopenh264.dll
+rem ------------------ openh264 -------------------------------
+rem Bei der mitgeliefertem libopenh264.dll von GStreamer kommt eine Meldung das der Einsprungspunkt nicht gefunden werden kann.
+rem Abhilfe schaft die Datei von cisco http://ciscobinary.openh264.org/openh264-2.0.0-win32.dll.bz2
+rem Die Datei muß nach dem herunterladen und entpacken umbenannt werden in libopenh264.dll
+copy %SCRIPT_LOCATION%\openh264-2.0.0-win32\openh264-2.0.0-win32.dll %libfolder%\libopenh264.dll
+copy C:\gstreamer\1.0\x86\bin\libgcc_s_sjlj-1.dll %libfolder%
+copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstopenh264.dll %libfolder%
+copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstvideoparsersbad.dll %libfolder%
 
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstadder.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstaudioconvert.dll %libfolder%
