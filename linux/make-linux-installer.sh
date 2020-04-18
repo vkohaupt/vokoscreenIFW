@@ -81,11 +81,70 @@ cp $buildPath/vokoscreenNG ./packages/root/data
 cp /usr/lib64/gstreamer-1.0/*  ./packages/root/data/lib
 cp -d /usr/lib64/libgst*       ./packages/root/data/lib
 
-cp -d /usr/lib64/libspa-lib.so.*                 ./packages/root/data/lib
-cp -d /usr/lib64/spa/support/libspa-dbus.so      ./packages/root/data/lib
-cp -d /usr/lib64/spa/support/libspa-support.so   ./packages/root/data/lib
-cp -d /usr/lib64/libffi.so.*                     ./packages/root/data/lib
-cp -d /usr/lib64/libpcre.so.*                    ./packages/root/data/lib
+cp -d /usr/lib64/libdca.so.*     ./packages/root/data/lib
+cp -d /usr/lib64/libswscale.so.*  ./packages/root/data/lib
+cp -d /usr/lib64/libsrtp.so.*     ./packages/root/data/lib
+cp -d /usr/lib64/libpostproc.so.*  ./packages/root/data/lib
+cp -d /usr/lib64/libnice.so.* ./packages/root/data/lib
+cp -d /usr/lib64/libneon.so.* ./packages/root/data/lib
+cp -d /usr/lib64/libtiger.so.* ./packages/root/data/lib
+cp -d /usr/lib64/libde265.so.* ./packages/root/data/lib
+cp -d /usr/lib64/libx265.so.*  ./packages/root/data/lib
+cp -d /usr/lib64/libcdio.so.*  ./packages/root/data/lib
+cp -d /usr/lib64/libmjpegutils-2.0.so.* ./packages/root/data/lib
+cp -d /usr/lib64/libmpeg2.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libzbar.so.*           ./packages/root/data/lib
+cp -d /usr/lib64/libSoundTouch.so.*     ./packages/root/data/lib
+cp -d /usr/lib64/libvo-amrwbenc.so.*   ./packages/root/data/lib
+cp -d /usr/lib64/libsbc.so.*           ./packages/root/data/lib
+cp -d /usr/lib64/libspandsp.so.*       ./packages/root/data/lib
+cp -d /usr/lib64/libvpx.so.*           ./packages/root/data/lib
+cp -d /usr/lib64/libcogl-gst.so.*      ./packages/root/data/lib
+cp -d /usr/lib64/liblrdf.so.*         ./packages/root/data/lib
+cp -d /usr/lib64/libmms.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libmpcdec.so.*       ./packages/root/data/lib
+cp -d /usr/lib64/libgraphene-1.0.so.* ./packages/root/data/lib
+cp -d /usr/lib64/liba52.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libfdk-aac.so.*      ./packages/root/data/lib
+cp -d /usr/lib64/libwebrtc_audio_processing.so.* ./packages/root/data/lib
+cp -d /usr/lib64/libfluidsynth.so.*    ./packages/root/data/lib
+cp -d /usr/lib64/libschroedinger-1.0.so.* ./packages/root/data/lib
+cp -d /usr/lib64/libvo-aacenc.so.*    ./packages/root/data/lib
+cp -d /usr/lib64/libIlmImf-2_2.so.*   ./packages/root/data/lib
+cp -d /usr/lib64/libofa.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libtiger.so.*        ./packages/root/data/lib
+cp -d /usr/lib64/libswresample.so.*    ./packages/root/data/lib
+cp -d /usr/lib64/libpipewire-0.2.so.* ./packages/root/data/lib
+cp -d /usr/lib64/libgupnp-igd-1.0.so.* ./packages/root/data/lib
+cp -d /usr/lib64/libkate.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libmpeg2encpp-2.0.so.* ./packages/root/data/lib
+cp -d /usr/lib64/libwebpmux.so.*        ./packages/root/data/lib
+cp -d /usr/lib64/libcogl.so.*           ./packages/root/data/lib
+cp -d /usr/lib64/libraptor2.so.*        ./packages/root/data/lib
+cp -d /usr/lib64/libImath-2_2.so.*      ./packages/root/data/lib
+cp -d /usr/lib64/libmplex2-2.0.so.*     ./packages/root/data/lib
+cp -d /usr/lib64/libzimg.so.*           ./packages/root/data/lib
+cp -d /usr/lib64/libspa-lib.so.*        ./packages/root/data/lib
+cp -d /usr/lib64/libgssdp-1.0.so.*      ./packages/root/data/lib
+cp -d /usr/lib64/libcelt0.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libHalf.so.*           ./packages/root/data/lib
+cp -d /usr/lib64/libopenjpeg.so.*       ./packages/root/data/lib
+cp -d /usr/lib64/libgupnp-1.0.so.*      ./packages/root/data/lib
+cp -d /usr/lib64/libIex-2_2.so.*        ./packages/root/data/lib
+cp -d /usr/lib64/libIexMath-2_2.so.*    ./packages/root/data/lib
+cp -d /usr/lib64/libIlmThread-2_2.so.*  ./packages/root/data/lib
+
+cp -d /usr/lib64/libspa-lib.so.*               ./packages/root/data/lib
+cp -d /usr/lib64/spa/support/libspa-support*   ./packages/root/data/lib
+
+
+# We must delete all pipewire files
+rm ./packages/root/data/lib/*pipewire*
+
+
+#cp -d /usr/lib64/spa/support/libspa-dbus*      ./packages/root/data/lib
+#cp -d /usr/lib64/libffi.so.*                       ./packages/root/data/lib
+#cp -d /usr/lib64/libpcre.so.*                      ./packages/root/data/lib
 
 
 
