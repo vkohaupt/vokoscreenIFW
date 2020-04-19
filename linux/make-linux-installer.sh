@@ -133,6 +133,45 @@ cp -d /usr/lib64/libgupnp-1.0.so.*      ./packages/root/data/lib
 cp -d /usr/lib64/libIex-2_2.so.*        ./packages/root/data/lib
 cp -d /usr/lib64/libIexMath-2_2.so.*    ./packages/root/data/lib
 cp -d /usr/lib64/libIlmThread-2_2.so.*  ./packages/root/data/lib
+cp -d /usr/lib64/libdouble-conversion.so.* ./packages/root/data/lib
+
+cp -d /usr/lib64/libfaad.so.*            ./packages/root/data/lib
+cp -d /usr/lib64/libmodplug.so.*         ./packages/root/data/lib
+cp -d /usr/lib64/libopencore-amrnb.so.*  ./packages/root/data/lib
+cp -d /usr/lib64/libdvdread.so.*         ./packages/root/data/lib
+cp -d /usr/lib64/libssh2.so.*            ./packages/root/data/lib
+cp -d /usr/lib64/libopencore-amrwb.so.*  ./packages/root/data/lib
+cp -d /usr/lib64/libopenal.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libdc1394.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libdvdnav.so.*          ./packages/root/data/lib
+cp -d /lib64/libreadline.*               ./packages/root/data/lib
+cp -d /usr/lib64/libva-wayland.so.*      ./packages/root/data/lib
+cp -d /usr/lib64/libavc1394.so.*         ./packages/root/data/lib
+cp -d /usr/lib64/libcaca.so.*            ./packages/root/data/lib
+cp -d /usr/lib64/libchromaprint.so.*     ./packages/root/data/lib
+cp -d /usr/lib64/libvidstab.so.*         ./packages/root/data/lib
+cp -d /usr/lib64/librtmp.so.*            ./packages/root/data/lib
+cp -d /usr/lib64/libshout.so.*           ./packages/root/data/lib
+cp -d /usr/lib64/libopenmpt.so.*         ./packages/root/data/lib
+cp -d /usr/lib64/librom1394.so.*         ./packages/root/data/lib
+cp -d /usr/lib64/libxvidcore.so.*        ./packages/root/data/lib
+cp -d /usr/lib64/libtheora.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libiec61883.so.*        ./packages/root/data/lib
+cp -d /usr/lib64/libqgsttools_p.so.*     ./packages/root/data/lib
+cp -d /usr/lib64/libvorbisenc.so.*       ./packages/root/data/lib
+cp -d /usr/lib64/libvorbis.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libGL.so.*              ./packages/root/data/lib
+cp -d /usr/lib64/libGLESv2.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libunwind.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/liborc-0.4.so.*         ./packages/root/data/lib
+cp -d /usr/lib64/libjavascriptcoregtk-4.0.so.* ./packages/root/data/lib
+cp -d /lib64/libncursesw.so.*            ./packages/root/data/lib
+cp -d /usr/lib64/liblilv-0.so.*          ./packages/root/data/lib
+cp -d /lib64/libtinfo.so.*               ./packages/root/data/lib
+cp -d /usr/lib64/libsratom-0.so.*        ./packages/root/data/lib
+cp -d /usr/lib64/libsord-0.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libserd-0.so.*          ./packages/root/data/lib
+
 
 cp -d /usr/lib64/libspa-lib.so.*               ./packages/root/data/lib
 cp -d /usr/lib64/spa/support/libspa-support*   ./packages/root/data/lib
