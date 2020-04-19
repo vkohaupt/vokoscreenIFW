@@ -2,7 +2,7 @@
 
 # Version von vokoscreenNG
 version="3.0.3"
-installerName="Installer-vokoscreenNG-"$version"-linux.run"
+installerName="Installer-vokoscreenNG-"$version"-linux-x86_64.run"
 qtPath="/home/vk/Qt5.9.7/5.9.7/gcc_64/"
 buildPath="/home/vk/Programmieren/vokoscreenNG/build-vokoscreenNG-Desktop-Release"
 
@@ -173,12 +173,38 @@ cp -d /usr/lib64/libsord-0.so.*          ./packages/root/data/lib
 cp -d /usr/lib64/libserd-0.so.*          ./packages/root/data/lib
 
 
+cp -d /usr/lib/gstreamer-1.0/gst-plugin-scanner ./packages/root/data/lib
+cp -d /usr/lib64/libglib-2.0.so.*        ./packages/root/data/lib
+cp -d /usr/lib64/libgobject-2.0.so.*     ./packages/root/data/lib
+cp -d /usr/lib64/libgmodule-2.0.so.*     ./packages/root/data/lib
+cp -d /usr/lib64/libpcre.so.*            ./packages/root/data/lib
+cp -d /usr/lib64/libffi.so.*             ./packages/root/data/lib
+cp -d /lib64/libpthread.so.*             ./packages/root/data/lib
+cp -d /lib64/libc.so.*                   ./packages/root/data/lib
+cp -d /lib64/libm.so.*                   ./packages/root/data/lib
+cp -d /lib64/librt.so.*                  ./packages/root/data/lib
+cp -d /lib64/libdl.so.*                  ./packages/root/data/lib
+cp -d /usr/lib64/libgio-2.0.so.*         ./packages/root/data/lib
+cp -d /usr/lib64/libpango-1.0.so.*       ./packages/root/data/lib
+cp -d /usr/lib64/libpangoft2-1.0.so.*    ./packages/root/data/lib
+cp -d /usr/lib64/libpangocairo-1.0.so.*  ./packages/root/data/lib
+cp -d /usr/lib64/libgiomm-2.4.so.*       ./packages/root/data/lib
+cp -d /usr/lib64/libatk-1.0.so.*         ./packages/root/data/lib
+cp -d /usr/lib64/libatk-bridge-2.0.so.*  ./packages/root/data/lib
+cp -d /usr/lib64/libgtk-3.so.*           ./packages/root/data/lib
+cp -d /usr/lib64/libgdk-3.so.*           ./packages/root/data/lib
+
+
+
+
+
 cp -d /usr/lib64/libspa-lib.so.*               ./packages/root/data/lib
 cp -d /usr/lib64/spa/support/libspa-support*   ./packages/root/data/lib
 
 
 # We must delete all pipewire files
 rm ./packages/root/data/lib/*pipewire*
+
 
 
 #cp -d /usr/lib64/spa/support/libspa-dbus*      ./packages/root/data/lib
