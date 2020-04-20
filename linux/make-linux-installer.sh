@@ -2,7 +2,7 @@
 
 # Version von vokoscreenNG
 version="3.0.3"
-installerName="Installer-vokoscreenNG-"$version"-linux-x86_64.run"
+installerName="vokoscreenNG-"$version"-linux-x86_64.run"
 qtPath="/home/vk/Qt5.9.7/5.9.7/gcc_64/"
 buildPath="/home/vk/Programmieren/vokoscreenNG/build-vokoscreenNG-Desktop-Release"
 
