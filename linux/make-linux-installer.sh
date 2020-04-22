@@ -144,7 +144,6 @@ cp -d /usr/lib64/libopencore-amrwb.so.*  ./packages/root/data/lib
 cp -d /usr/lib64/libopenal.so.*          ./packages/root/data/lib
 cp -d /usr/lib64/libdc1394.so.*          ./packages/root/data/lib
 cp -d /usr/lib64/libdvdnav.so.*          ./packages/root/data/lib
-cp -d /lib64/libreadline.*               ./packages/root/data/lib
 cp -d /usr/lib64/libva-wayland.so.*      ./packages/root/data/lib
 cp -d /usr/lib64/libavc1394.so.*         ./packages/root/data/lib
 cp -d /usr/lib64/libcaca.so.*            ./packages/root/data/lib
@@ -165,35 +164,55 @@ cp -d /usr/lib64/libGLESv2.so.*          ./packages/root/data/lib
 cp -d /usr/lib64/libunwind.so.*          ./packages/root/data/lib
 cp -d /usr/lib64/liborc-0.4.so.*         ./packages/root/data/lib
 cp -d /usr/lib64/libjavascriptcoregtk-4.0.so.* ./packages/root/data/lib
-cp -d /lib64/libncursesw.so.*            ./packages/root/data/lib
 cp -d /usr/lib64/liblilv-0.so.*          ./packages/root/data/lib
-cp -d /lib64/libtinfo.so.*               ./packages/root/data/lib
 cp -d /usr/lib64/libsratom-0.so.*        ./packages/root/data/lib
 cp -d /usr/lib64/libsord-0.so.*          ./packages/root/data/lib
 cp -d /usr/lib64/libserd-0.so.*          ./packages/root/data/lib
+cp -d /lib64/libtinfo.so.*               ./packages/root/data/lib
+cp -d /lib64/libncursesw.so.*            ./packages/root/data/lib
+cp -d /lib64/libreadline.*               ./packages/root/data/lib
+
+cp -d /usr/lib64/libcurl.so.*            ./packages/root/data/lib
+cp -d /usr/lib64/libssh.so.*              ./packages/root/data/lib
+
+# Bis hierher funktioniert es unter
+# Ubuntu 18.04
+# Ubuntu 19.10
+# Ubuntu Buster 10.3
 
 
-cp -d /usr/lib/gstreamer-1.0/gst-plugin-scanner ./packages/root/data/lib
-cp -d /usr/lib64/libglib-2.0.so.*        ./packages/root/data/lib
-cp -d /usr/lib64/libgobject-2.0.so.*     ./packages/root/data/lib
-cp -d /usr/lib64/libgmodule-2.0.so.*     ./packages/root/data/lib
-cp -d /usr/lib64/libpcre.so.*            ./packages/root/data/lib
-cp -d /usr/lib64/libffi.so.*             ./packages/root/data/lib
-cp -d /lib64/libpthread.so.*             ./packages/root/data/lib
-cp -d /lib64/libc.so.*                   ./packages/root/data/lib
-cp -d /lib64/libm.so.*                   ./packages/root/data/lib
-cp -d /lib64/librt.so.*                  ./packages/root/data/lib
-cp -d /lib64/libdl.so.*                  ./packages/root/data/lib
-cp -d /usr/lib64/libgio-2.0.so.*         ./packages/root/data/lib
-cp -d /usr/lib64/libpango-1.0.so.*       ./packages/root/data/lib
-cp -d /usr/lib64/libpangoft2-1.0.so.*    ./packages/root/data/lib
-cp -d /usr/lib64/libpangocairo-1.0.so.*  ./packages/root/data/lib
-cp -d /usr/lib64/libgiomm-2.4.so.*       ./packages/root/data/lib
-cp -d /usr/lib64/libatk-1.0.so.*         ./packages/root/data/lib
-cp -d /usr/lib64/libatk-bridge-2.0.so.*  ./packages/root/data/lib
-cp -d /usr/lib64/libgtk-3.so.*           ./packages/root/data/lib
-cp -d /usr/lib64/libgdk-3.so.*           ./packages/root/data/lib
+#cp -d /usr/lib/gstreamer-1.0/gst-plugin-scanner ./packages/root/data/lib
+#cp -d /usr/lib64/libglib-2.0.so.*        ./packages/root/data/lib
+#cp -d /usr/lib64/libgobject-2.0.so.*     ./packages/root/data/lib
+#cp -d /usr/lib64/libgmodule-2.0.so.*     ./packages/root/data/lib
+#cp -d /usr/lib64/libpcre.so.*            ./packages/root/data/lib
+#cp -d /usr/lib64/libffi.so.*             ./packages/root/data/lib
+#cp -d /usr/lib64/libgio-2.0.so.*         ./packages/root/data/lib
+#cp -d /usr/lib64/libpango-1.0.so.*       ./packages/root/data/lib
+#cp -d /usr/lib64/libpangoft2-1.0.so.*    ./packages/root/data/lib
+#cp -d /usr/lib64/libpangocairo-1.0.so.*  ./packages/root/data/lib
+#cp -d /usr/lib64/libgiomm-2.4.so.*       ./packages/root/data/lib
+#cp -d /usr/lib64/libatk-1.0.so.*         ./packages/root/data/lib
+#cp -d /usr/lib64/libatk-bridge-2.0.so.*  ./packages/root/data/lib
+#cp -d /usr/lib64/libgtk-3.so.*           ./packages/root/data/lib
+#cp -d /usr/lib64/libgdk-3.so.*           ./packages/root/data/lib
+#cp -d /lib64/libpthread*                 ./packages/root/data/lib
+#cp -d /lib64/libc-2.*                    ./packages/root/data/lib
+#cp -d /lib64/libc.so.*                   ./packages/root/data/lib
+#cp -d /lib64/libm-2.*                    ./packages/root/data/lib
+#cp -d /lib64/libm.so.*                   ./packages/root/data/lib
+#cp -d /lib64/librt-2.*                   ./packages/root/data/lib
+#cp -d /lib64/librt.so.*                  ./packages/root/data/lib
+#cp -d /lib64/libdl-2.*                   ./packages/root/data/lib
+#cp -d /lib64/libdl.so.*                  ./packages/root/data/lib
 
+#cp -d /usr/lib64/libpulse.so.*           ./packages/root/data/lib
+#cp -d /usr/lib64/libpng16.so.*           ./packages/root/data/lib
+#cp -d /usr/lib64/libharfbuzz.so.*        ./packages/root/data/lib
+#cp -d /usr/lib64/libsystemd.so.*         ./packages/root/data/lib
+#cp -d /usr/lib64/pulseaudio/libpulsecommon-11.1.so ./packages/root/data/lib
+#cp -d /usr/lib64/libsndfile.so.*         ./packages/root/data/lib
+#cp -d /usr/lib64/libFLAC.so.*            ./packages/root/data/lib
 
 
 
