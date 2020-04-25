@@ -173,11 +173,12 @@ cp -d /lib64/libncursesw.so.*            ./packages/root/data/lib
 cp -d /lib64/libreadline.*               ./packages/root/data/lib
 
 cp -d /usr/lib64/libcurl.so.*            ./packages/root/data/lib
-cp -d /usr/lib64/libssh.so.*              ./packages/root/data/lib
+cp -d /usr/lib64/libssh.so.*             ./packages/root/data/lib
+cp -d /usr/lib64/libxcb-xinerama*        ./packages/root/data/lib
 
-# Bis hierher funktioniert es unter
 # Ubuntu 18.04
 # Ubuntu 19.10
+# Ubuntu 20.04
 # Ubuntu Buster 10.3
 
 
