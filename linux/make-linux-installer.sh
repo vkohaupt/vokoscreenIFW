@@ -159,7 +159,7 @@ cp -d /usr/lib64/libiec61883.so.*        ./packages/root/data/lib
 cp -d /usr/lib64/libqgsttools_p.so.*     ./packages/root/data/lib
 cp -d /usr/lib64/libvorbisenc.so.*       ./packages/root/data/lib
 cp -d /usr/lib64/libvorbis.so.*          ./packages/root/data/lib
-cp -d /usr/lib64/libGL.so.*              ./packages/root/data/lib
+#cp -d /usr/lib64/libGL.so.*              ./packages/root/data/lib
 cp -d /usr/lib64/libGLESv2.so.*          ./packages/root/data/lib
 cp -d /usr/lib64/libunwind.so.*          ./packages/root/data/lib
 cp -d /usr/lib64/liborc-0.4.so.*         ./packages/root/data/lib
@@ -168,54 +168,58 @@ cp -d /usr/lib64/liblilv-0.so.*          ./packages/root/data/lib
 cp -d /usr/lib64/libsratom-0.so.*        ./packages/root/data/lib
 cp -d /usr/lib64/libsord-0.so.*          ./packages/root/data/lib
 cp -d /usr/lib64/libserd-0.so.*          ./packages/root/data/lib
-cp -d /lib64/libtinfo.so.*               ./packages/root/data/lib
-cp -d /lib64/libncursesw.so.*            ./packages/root/data/lib
-cp -d /lib64/libreadline.*               ./packages/root/data/lib
+#cp -d /lib64/libtinfo.so.*               ./packages/root/data/lib
+#cp -d /lib64/libncursesw.so.*            ./packages/root/data/lib
+#cp -d /lib64/libreadline.*               ./packages/root/data/lib
 
 cp -d /usr/lib64/libcurl.so.*            ./packages/root/data/lib
 cp -d /usr/lib64/libssh.so.*             ./packages/root/data/lib
-cp -d /usr/lib64/libxcb-xinerama*        ./packages/root/data/lib
+cp -d /usr/lib64/libxcb-xinerama.so.*    ./packages/root/data/lib
+cp -d /usr/lib64/libhogweed.so.*         ./packages/root/data/lib
+cp -d /usr/lib64/libnettle.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libgstcodecparsers-1.0.so.* ./packages/root/data/lib
+cp -d /usr/lib64/libva-wayland.so.*      ./packages/root/data/lib
+cp -d /usr/lib64/libgobject-2.0.so.*     ./packages/root/data/lib
+cp -d /usr/lib64/libglib-2.0.so.*        ./packages/root/data/lib
+#cp -d /lib64/libm-2.*                    ./packages/root/data/lib
+#cp -d /lib64/libm.so.*                   ./packages/root/data/lib
+#cp -d /lib64/libpthread*                 ./packages/root/data/lib
+#cp -d /lib64/libc-2.*                    ./packages/root/data/lib
+#cp -d /lib64/libc.so.*                   ./packages/root/data/lib
+cp -d /usr/lib64/libgmodule-2.0.so.*     ./packages/root/data/lib
+#cp -d /lib64/librt-2.*                   ./packages/root/data/lib
+#cp -d /lib64/librt.so.*                  ./packages/root/data/lib
+#cp -d /lib64/libdl-2.*                   ./packages/root/data/lib
+#cp -d /lib64/libdl.so.*                  ./packages/root/data/lib
+cp -d /usr/lib64/libffi.so.*             ./packages/root/data/lib
+cp -d /usr/lib64/libpcre.so.*            ./packages/root/data/lib
+cp -d /usr/lib64/liblzma.so.*            ./packages/root/data/lib
+
+cp -d /usr/lib64/libpng16.so.*           ./packages/root/data/lib
+cp -d /usr/lib64/libsystemd.so.*         ./packages/root/data/lib
+cp -d /usr/lib64/libsndfile.so.*         ./packages/root/data/lib
+cp -d /usr/lib64/libFLAC.so.*            ./packages/root/data/lib
+#cp -d /lib64/libselinux.so.*             ./packages/root/data/lib
+cp -d /usr/lib64/libspeex.so.*           ./packages/root/data/lib
+cp -d /usr/lib64/libogg.so.*             ./packages/root/data/lib
+cp -d /usr/lib64/libdbus-1.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libxcb.so.*             ./packages/root/data/lib
+cp -d /usr/lib64/libXau.so.*             ./packages/root/data/lib
+cp -d /usr/lib64/libcap.so.*             ./packages/root/data/lib
+cp -d /usr/lib64/liblz4.so.*             ./packages/root/data/lib
+cp -d /usr/lib64/libgcrypt.so.*          ./packages/root/data/lib
+cp -d /usr/lib64/libgpg-error.so.*       ./packages/root/data/lib
+
+cp -d /usr/lib64/libpulse.so.*           ./packages/root/data/lib
+cp -d /usr/lib64/pulseaudio/*            ./packages/root/data/lib
+cp -d -r /usr/lib64/pulse-11.1/*            ./packages/root/data/lib
+
+
 
 # Ubuntu 18.04
 # Ubuntu 19.10
 # Ubuntu 20.04
 # Ubuntu Buster 10.3
-
-
-#cp -d /usr/lib/gstreamer-1.0/gst-plugin-scanner ./packages/root/data/lib
-#cp -d /usr/lib64/libglib-2.0.so.*        ./packages/root/data/lib
-#cp -d /usr/lib64/libgobject-2.0.so.*     ./packages/root/data/lib
-#cp -d /usr/lib64/libgmodule-2.0.so.*     ./packages/root/data/lib
-#cp -d /usr/lib64/libpcre.so.*            ./packages/root/data/lib
-#cp -d /usr/lib64/libffi.so.*             ./packages/root/data/lib
-#cp -d /usr/lib64/libgio-2.0.so.*         ./packages/root/data/lib
-#cp -d /usr/lib64/libpango-1.0.so.*       ./packages/root/data/lib
-#cp -d /usr/lib64/libpangoft2-1.0.so.*    ./packages/root/data/lib
-#cp -d /usr/lib64/libpangocairo-1.0.so.*  ./packages/root/data/lib
-#cp -d /usr/lib64/libgiomm-2.4.so.*       ./packages/root/data/lib
-#cp -d /usr/lib64/libatk-1.0.so.*         ./packages/root/data/lib
-#cp -d /usr/lib64/libatk-bridge-2.0.so.*  ./packages/root/data/lib
-#cp -d /usr/lib64/libgtk-3.so.*           ./packages/root/data/lib
-#cp -d /usr/lib64/libgdk-3.so.*           ./packages/root/data/lib
-#cp -d /lib64/libpthread*                 ./packages/root/data/lib
-#cp -d /lib64/libc-2.*                    ./packages/root/data/lib
-#cp -d /lib64/libc.so.*                   ./packages/root/data/lib
-#cp -d /lib64/libm-2.*                    ./packages/root/data/lib
-#cp -d /lib64/libm.so.*                   ./packages/root/data/lib
-#cp -d /lib64/librt-2.*                   ./packages/root/data/lib
-#cp -d /lib64/librt.so.*                  ./packages/root/data/lib
-#cp -d /lib64/libdl-2.*                   ./packages/root/data/lib
-#cp -d /lib64/libdl.so.*                  ./packages/root/data/lib
-
-#cp -d /usr/lib64/libpulse.so.*           ./packages/root/data/lib
-#cp -d /usr/lib64/libpng16.so.*           ./packages/root/data/lib
-#cp -d /usr/lib64/libharfbuzz.so.*        ./packages/root/data/lib
-#cp -d /usr/lib64/libsystemd.so.*         ./packages/root/data/lib
-#cp -d /usr/lib64/pulseaudio/libpulsecommon-11.1.so ./packages/root/data/lib
-#cp -d /usr/lib64/libsndfile.so.*         ./packages/root/data/lib
-#cp -d /usr/lib64/libFLAC.so.*            ./packages/root/data/lib
-
-
 
 
 cp -d /usr/lib64/libspa-lib.so.*               ./packages/root/data/lib
@@ -224,13 +228,6 @@ cp -d /usr/lib64/spa/support/libspa-support*   ./packages/root/data/lib
 
 # We must delete all pipewire files
 rm ./packages/root/data/lib/*pipewire*
-
-
-
-#cp -d /usr/lib64/spa/support/libspa-dbus*      ./packages/root/data/lib
-#cp -d /usr/lib64/libffi.so.*                       ./packages/root/data/lib
-#cp -d /usr/lib64/libpcre.so.*                      ./packages/root/data/lib
-
 
 
 #array=$(ldd /usr/lib64/qt5/plugins/mediaservice/libgstcamerabin.so | sed -e 's/\t//' | grep /usr/lib | cut -d " " -f3)
