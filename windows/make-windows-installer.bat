@@ -54,6 +54,7 @@ copy C:\gstreamer\1.0\x86\bin\libz.dll %libfolder%
 rem ------------------ openh264 -------------------------------
 rem Bei der mitgeliefertem libopenh264.dll von GStreamer kommt eine Meldung das der Einsprungspunkt nicht gefunden werden kann.
 rem Abhilfe schaft die Datei von cisco http://ciscobinary.openh264.org/openh264-2.0.0-win32.dll.bz2
+rem https://github.com/cisco/openh264/releases
 rem Die Datei muß nach dem herunterladen und entpacken umbenannt werden in libopenh264.dll
 rem Es ist zu überprüfen ob das nach dem hinzufügen von libgstcodecparsers-1.0-0.dll immer noch der Fall ist. Siehe drei Zeilen weiter unten.
 copy %SCRIPT_LOCATION%\openh264-2.0.0-win32\libopenh264.dll %libfolder%

@@ -45,3 +45,4 @@ vokoscreenNG
 !libopenh264.dll
 gst-plugin-scanner
 *.tar.gz
+*.prl

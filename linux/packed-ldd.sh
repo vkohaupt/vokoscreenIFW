@@ -175,22 +175,14 @@ do
     done
 done
 
+# Pipewire librarys müßen entfernt werden da sonst das Programm erst gar nicht startet.
 rm ./packages/root/data/lib/*pipewire*
 rm ./packages/root/data/gstreamer/*pipewire*
 
 cp -d /usr/lib64/spa/support/libspa-support.so ./packages/root/data/lib
-#cp -d /lib64/libc-2.26.so                      ./packages/root/data/lib
-#cp -d /lib64/libpthread-2.26.so                ./packages/root/data/lib
-#cp -d /lib64/libdl-2.26.so                     ./packages/root/data/lib
-#cp -d /lib64/libm-2.26.so                      ./packages/root/data/lib
-#cp -d /lib64/libresolv-2.26.so                 ./packages/root/data/lib
-#cp -d /lib64/librt-2.26.so                     ./packages/root/data/lib
-#cp -d /lib64/libc-2.26.so                      ./packages/root/data/lib
-#cp -d /lib64/libpthread-2.26.so                ./packages/root/data/lib
-#cp -d /lib64/libdl-2.26.so                     ./packages/root/data/lib
-#cp -d /lib64/libm-2.26.so                      ./packages/root/data/lib
-#cp -d /lib64/libresolv-2.26.so                 ./packages/root/data/lib
-#cp -d /lib64/librt-2.26.so                     ./packages/root/data/lib
+
+# openh264 download https://github.com/cisco/openh264/releases
+cp -d /usr/lib64/libopenh264.so.*              ./packages/root/data/lib
 
 rm ./packages/root/data/lib/libc.so.6
 rm ./packages/root/data/lib/libdl.so.2

@@ -2,10 +2,9 @@
 # Graphical installer for vokoscreenNG
 
 
-## Windows 10
+## Windows 10 and Linux
 ### Requires:
-* https://download.qt.io/official_releases/qt-installer-framework/3.1.1/QtInstallerFramework-win-x86.exe
-
+* https://download.qt.io/official_releases/qt-installer-framework/
 
 ### Manual for QtInstallerFramework
 * https://doc.qt.io/qtinstallerframework/index.html
