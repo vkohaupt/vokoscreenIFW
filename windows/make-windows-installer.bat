@@ -49,7 +49,7 @@ copy C:\gstreamer\1.0\x86\bin\libvorbis-0.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libvorbisenc-2.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libwinpthread-1.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libx264-148.dll %libfolder%
-copy C:\gstreamer\1.0\x86\bin\libz.dll %libfolder%
+copy C:\gstreamer\1.0\x86\bin\libz-1.dll %libfolder%
 
 rem ------------------ openh264 -------------------------------
 rem Bei der mitgeliefertem libopenh264.dll von GStreamer kommt eine Meldung das der Einsprungspunkt nicht gefunden werden kann.
