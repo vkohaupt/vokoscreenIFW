@@ -11,7 +11,7 @@ rem Copy vokoscreenNG.exe in the folder \vokoscreenIFW\windows\packages\root\dat
 rem Start this file
 
 rem Version von vokoscreenNG
-SET version=3.0.3
+SET version=3.0.4
 SET installerName=vokoscreenNG-%version%-win32.exe
 
 rem Too find gcc
@@ -68,7 +68,7 @@ copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstaudioconvert.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstaudiorate.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstavi.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstcoreelements.dll %libfolder%
-copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstdirectsoundsrc.dll %libfolder%
+copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstwasapi.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstflac.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstisomp4.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstlame.dll %libfolder%
