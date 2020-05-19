@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Version von vokoscreenNG
-version="3.0.3"
+version="3.0.4"
 installerName="vokoscreenNG-"$version"-linux-x86_64.run"
 qtPath="/home/vk/Qt5.9.7/5.9.7/gcc_64/"
 buildPath="/home/vk/Programmieren/vokoscreenNG/build-vokoscreenNG-Desktop-Release"
