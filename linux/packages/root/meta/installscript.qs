@@ -35,7 +35,7 @@ Component.prototype.createOperations = function()
                             "StartupNotify=false\n" +
                             "Type=Application\n" +
                             "X-KDE-SubstituteUID=false\n" +
-                            "Icon=" + iconName + "\n" +
+                            "Icon=Uninstall\n" +
                             "Exec='@TargetDir@/Uninstall'\n" );
                             
    component.addOperation( "Copy",

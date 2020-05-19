@@ -23,7 +23,7 @@ export GST_PLUGIN_SYSTEM_PATH_1_0="${ROOTDIR}"/gstreamer
 export GST_PLUGIN_PATH="${ROOTDIR}"/gstreamer
 export GST_PLUGIN_SCANNER_1_0="${ROOTDIR}"/gstreamer
 
-export QT_DEBUG_PLUGINS=1
-export GST_DEBUG=2
+#export QT_DEBUG_PLUGINS=1
+#export GST_DEBUG=2
 
 exec "$ROOTDIR"/vokoscreenNG $1
