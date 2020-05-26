@@ -83,6 +83,7 @@ copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstvpx.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstwinscreencap.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstx264.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstaudiomixer.dll %libfolder%
+copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstvoaacenc.dll %libfolder%
 
 C:\Qt\QtIFW-3.2.2\bin\binarycreator --offline-only -c config/config.xml -p packages %installerName%
 
