@@ -70,6 +70,7 @@ copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstaudiorate.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstavi.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstcoreelements.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstwasapi.dll %libfolder%
+copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstdirectsoundsrc.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstflac.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstisomp4.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstlame.dll %libfolder%
