@@ -43,7 +43,6 @@ vokoscreenNG
 *.log
 *.qm
 !libopenh264.dll
-windows\openh264-2.0.0-win32\libopenh264.dll
 gst-plugin-scanner
 *.tar.gz
 *.prl
