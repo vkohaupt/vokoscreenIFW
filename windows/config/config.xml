@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Installer>
     <Name>vokoscreenNG</Name>
-    <Version>3.0.5</Version>
+    <Version>3.0.6</Version>
     <Title>vokoscreenNG</Title>
     <Publisher>vokoscreenNG Team</Publisher>
     <ProductUrl>https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html</ProductUrl>
