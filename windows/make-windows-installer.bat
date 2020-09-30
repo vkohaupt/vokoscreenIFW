@@ -11,7 +11,7 @@ rem Copy vokoscreenNG.exe in the folder \vokoscreenIFW\windows\packages\root\dat
 rem Start this file
 
 rem Version von vokoscreenNG
-SET version=3.0.6
+SET version=3.0.7
 SET installerName=vokoscreenNG-%version%-win32.exe
 
 rem Too find gcc
