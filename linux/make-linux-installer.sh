@@ -239,6 +239,6 @@ rm ./packages/root/data/lib/*pipewire*
 
 
 
-/home/vk/Qt/QtIFW-3.2.0/bin/binarycreator --offline-only \
+/home/vk/Qt/QtIFW-4.0.0/bin/binarycreator --offline-only \
                                           -c config/config.xml \
                                           -p packages $installerName
