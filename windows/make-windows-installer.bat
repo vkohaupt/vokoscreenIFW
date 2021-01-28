@@ -11,7 +11,7 @@ rem Copy vokoscreenNG.exe in the folder \vokoscreenIFW\windows\packages\root\dat
 rem Start this file
 
 rem Version von vokoscreenNG
-SET version=3.0.7
+SET version=3.0.8
 SET installerName=vokoscreenNG-%version%-win32.exe
 
 rem Too find gcc
@@ -87,5 +87,5 @@ copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstx264.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstaudiomixer.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstvoaacenc.dll %libfolder%
 
-C:\Qt\QtIFW-4.0.0\bin\binarycreator --offline-only -c config/config.xml -p packages %installerName%
+C:\Qt\QtIFW-4.0.1\bin\binarycreator --offline-only -c config/config.xml -p packages %installerName%
 
