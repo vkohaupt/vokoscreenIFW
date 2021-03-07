@@ -50,6 +50,7 @@ copy C:\gstreamer\1.0\x86\bin\libvorbisenc-2.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libwinpthread-1.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libx264-148.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libz-1.dll %libfolder%
+copy C:\gstreamer\1.0\x86\bin\libbz2.dll %libfolder%
 
 rem ------------------ openh264 -------------------------------
 rem Bei der mitgeliefertem libopenh264.dll von GStreamer kommt eine Meldung das der Einsprungspunkt nicht gefunden werden kann.
@@ -84,6 +85,7 @@ copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstvpx.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstwinscreencap.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstx264.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstaudiomixer.dll %libfolder%
+copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstbz2.dll %libfolder%
 
 C:\Qt\QtIFW-4.0.1\bin\binarycreator --offline-only -c config/config.xml -p packages %installerName%
 
