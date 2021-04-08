@@ -58,13 +58,13 @@ rem Abhilfe schaft die Datei von cisco http://ciscobinary.openh264.org/openh264-
 rem https://github.com/cisco/openh264/releases
 rem Die Datei muß nach dem herunterladen und entpacken umbenannt werden in libopenh264.dll
 rem Es ist zu überprüfen ob das nach dem hinzufügen von libgstcodecparsers-1.0-0.dll immer noch der Fall ist. Siehe drei Zeilen weiter unten.
-copy %SCRIPT_LOCATION%\openh264-2.1.1-win32\libopenh264.dll %libfolder%
+rem copy %SCRIPT_LOCATION%\openh264-2.1.1-win32\libopenh264.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libgcc_s_sjlj-1.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libgstcodecparsers-1.0-0.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstopenh264.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstvideoparsersbad.dll %libfolder%
 
-copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstadder.dll %libfolder%
+rem copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstadder.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstaudioconvert.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstaudiorate.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstavi.dll %libfolder%
