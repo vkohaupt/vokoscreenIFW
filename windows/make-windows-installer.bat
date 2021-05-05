@@ -18,10 +18,11 @@ rem Too find gcc
 PATH=%PATH%;C:\Qt\Qt5.9.4\Tools\mingw530_32\bin
 
 SET SCRIPT_LOCATION=%~dp0
+SET libfolder=%SCRIPT_LOCATION%\packages\root\data
+
+copy C:\Programieren\vokoscreenNG\build-vokoscreenNG-Desktop_Qt_5_9_4_MinGW_32bit-Release\release\vokoscreenNG.exe %libfolder%
 
 C:\Qt\Qt5.9.4\5.9.4\mingw53_32\bin\windeployqt.exe --release %SCRIPT_LOCATION%\packages\root\data\vokoscreenNG.exe
-
-SET libfolder=%SCRIPT_LOCATION%\packages\root\data
 
 copy C:\Qt\Qt5.9.4\Tools\mingw530_32\opt\bin\ssleay32.dll %libfolder%
 copy C:\Qt\Qt5.9.4\Tools\mingw530_32\opt\bin\libeay32.dll %libfolder%
@@ -64,7 +65,6 @@ copy C:\gstreamer\1.0\x86\bin\libgstcodecparsers-1.0-0.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstopenh264.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstvideoparsersbad.dll %libfolder%
 
-rem copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstadder.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstaudioconvert.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstaudiorate.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstavi.dll %libfolder%
