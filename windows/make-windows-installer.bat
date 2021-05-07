@@ -49,7 +49,6 @@ copy C:\gstreamer\1.0\x86\bin\liborc-0.4-0.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libvorbis-0.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libvorbisenc-2.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libwinpthread-1.dll %libfolder%
-copy C:\gstreamer\1.0\x86\bin\libx264-148.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libz-1.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libbz2.dll %libfolder%
 
@@ -83,7 +82,6 @@ copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstvideoscale.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstvorbis.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstvpx.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstwinscreencap.dll %libfolder%
-copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstx264.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstaudiomixer.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstbz2.dll %libfolder%
 
