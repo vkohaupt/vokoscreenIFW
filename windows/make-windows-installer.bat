@@ -1,8 +1,8 @@
 rem @ECHO OFF
 rem Install qt-opensource-windows-x86-5.9.4.exe
-rem Install gstreamer-1.0-x86-1.14.4.msi
-rem Install gstreamer-1.0-devel-x86-1.14.4.msi
-rem Install https://download.qt.io/official_releases/qt-installer-framework/4.0.0/QtInstallerFramework-win-x86.exe
+rem Install gstreamer-1.0-x86-1.16.1.msi
+rem Install gstreamer-1.0-devel-x86-1.16.1.msi
+rem Install https://download.qt.io/official_releases/qt-installer-framework/4.0.1/QtInstallerFramework-win-x86.exe
 rem Install git
 rem Create a folder
 rem Change in the created folder
@@ -52,13 +52,7 @@ copy C:\gstreamer\1.0\x86\bin\libwinpthread-1.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libz-1.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libbz2.dll %libfolder%
 
-rem ------------------ openh264 -------------------------------
-rem Bei der mitgeliefertem libopenh264.dll von GStreamer kommt eine Meldung das der Einsprungspunkt nicht gefunden werden kann.
-rem Abhilfe schaft die Datei von cisco http://ciscobinary.openh264.org/openh264-2.0.0-win32.dll.bz2
-rem https://github.com/cisco/openh264/releases
-rem Die Datei muß nach dem herunterladen und entpacken umbenannt werden in libopenh264.dll
-rem Es ist zu überprüfen ob das nach dem hinzufügen von libgstcodecparsers-1.0-0.dll immer noch der Fall ist. Siehe drei Zeilen weiter unten.
-rem copy %SCRIPT_LOCATION%\openh264-2.1.1-win32\libopenh264.dll %libfolder%
+rem wird libgstcodecparsers-1.0-0.dll benötigt?
 copy C:\gstreamer\1.0\x86\bin\libgcc_s_sjlj-1.dll %libfolder%
 copy C:\gstreamer\1.0\x86\bin\libgstcodecparsers-1.0-0.dll %libfolder%
 copy C:\gstreamer\1.0\x86\lib\gstreamer-1.0\libgstopenh264.dll %libfolder%
